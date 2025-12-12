@@ -1,0 +1,35 @@
+{
+  "datasets": {
+    "adult": {
+      "path": "data/Adult_clean.csv",
+      "task": "classification",
+      "target": "income",
+      "categorical_features": ["occupation", "workclass", "native_country"]
+    },
+    "petfinder": {
+      "path": "data/PetFinder_clean.csv",
+      "task": "classification",
+      "target": "AdoptionSpeed_bin",
+      "categorical_features": ["Breed1", "Color1", "MaturitySize"]
+    },
+    "breast": {
+      "path": "data/Breast_clean.csv",
+      "task": "classification",
+      "target": "OS5yr_bin",
+      "categorical_features": ["TNM_PATH_T", "TNM_PATH_N", "hospid"]
+    },
+    "ipeds": {
+      "path": "data/IPEDS_clean.csv",
+      "task": "regression",
+      "target": "completions",
+      "categorical_features": ["cipcode"]
+    }
+  },
+  "splits": {
+    "train_size": 0.6,
+    "val_size": 0.2,
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratify": true
+  }
+}
