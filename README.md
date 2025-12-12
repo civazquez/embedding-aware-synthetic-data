@@ -20,7 +20,8 @@ We evaluate representations through:
 - **Breast Cancer** (classification): 5-year survival using numeric features + TNM codes + hospital ID  
 - **IPEDS / CIP** (regression): predicting completion counts (i.e., number of awards/completions reported for a program/institution)
 
-> Note: Datasets are not included in this repository.
+> Note: Cleaned versions of the datasets used in the experiments are included for
+> reproducibility. Raw datasets are subject to their original licenses.
 
 ## Repository structure
 - `notebooks/` — notebooks (01–05F) for preprocessing, encoding/embedding, evaluation, and aggregation
