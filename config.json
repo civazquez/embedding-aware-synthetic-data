@@ -7,7 +7,7 @@
       "categorical_features": ["occupation", "workclass", "native_country"]
     },
     "petfinder": {
-      "path": "data/PetFinder_clean.csv",
+      "path": "data/Petfinder_clean.csv",
       "task": "classification",
       "target": "AdoptionSpeed_bin",
       "categorical_features": ["Breed1", "Color1", "MaturitySize"]
@@ -19,7 +19,7 @@
       "categorical_features": ["TNM_PATH_T", "TNM_PATH_N", "hospid"]
     },
     "ipeds": {
-      "path": "data/IPEDS_clean.csv",
+      "path": "data/ipeds_data.csv",
       "task": "regression",
       "target": "completions",
       "categorical_features": ["cipcode"]
@@ -33,3 +33,4 @@
     "stratify": true
   }
 }
+
